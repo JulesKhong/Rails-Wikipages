@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160906222823) do
+ActiveRecord::Schema.define(version: 20160906232011) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20160906222823) do
     t.string  "phone_number"
     t.string  "website"
     t.text    "hours"
-    t.integer "catagory_id"
+    t.integer "category_id"
   end
 
   create_table "categories", force: :cascade do |t|
